@@ -1,4 +1,5 @@
 $(function() {
+    //用户退出功能
     $('#logout').on('click', function() {
         var isConfirm = confirm('您确认离开吗？');
         if (isConfirm) {
